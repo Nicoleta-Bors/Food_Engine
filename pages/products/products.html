@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="./products.css" />
+    <title>Food Engine</title>
+    <link rel="shortcut icon" href="../../images/logo_white.png" type="image/x-icon" />
+    <!-- font-family: 'Roboto Condensed', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="../../index.html"><img class="logo" src="../../images/logo_mov.png" alt="logo" /></a>
+    </header>
+    <main>
+      <div class="container container-Products">
+        <h1>Introduceți produsele care doriți să se conțină în mâncare</h1>
+        <form action="">
+          <select class="product-input" id="products">
+            <!-- <option value="Produs">Produs</option> -->
+          </select>
+
+          <input class="button-submit" type="submit" value="+" />
+        </form>
+        <ul class="selected-products">
+          <!-- <li>Produs</li> -->
+        </ul>
+
+        <button class="button button-next">➡</button>
+      </div>
+    </main>
+    <script src="./products.js"></script>
+  </body>
+</html>

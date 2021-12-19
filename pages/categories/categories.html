@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="./categories.css" />
+    <title>Food Engine</title>
+    <link rel="shortcut icon" href="../../images/logo_white.png" type="image/x-icon" />
+    <!-- font-family: 'Roboto Condensed', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="../../index.html"><img class="logo" src="../../images/logo_mov.png" alt="logo" /></a>
+    </header>
+    <main>
+      <div class="container container-Categories">
+        <h1>Dacă aveți careva preferințe, bifați casetele</h1>
+        <form action="../recipes/recipes.html">
+          <div>
+            <input type="checkbox" id="Vegetariana" name="Vegetariana" value="Vegetariana" />
+            <label for="Vegetariana"> Mâncare vegetariană </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Vegana" name="Vegana" value="Vegana" />
+            <label for="Vegana"> Mâncare vegană </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Post" name="Post" value="Post" />
+            <label for="Post"> Mâncare de post </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Mancaruri" name="Mancaruri" value="Mancaruri" />
+            <label for="Mancaruri">🧆 Mâncăruri de bază </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Supe" name="Supe" value="Supe" />
+            <label for="Supe">🍲 Supe </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Salate" name="Salate" value="Salate" />
+            <label for="Salate">🥗 Salate </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Placinte" name="Placinte" value="Placinte" />
+            <label for="Placinte">🥧 Plăcinte </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Deserturi" name="Deserturi" value="Deserturi" />
+            <label for="Deserturi">🍰 Deserturi </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Gustari" name="Gustari" value="Gustari" />
+            <label for="Gustari">🥪 Gustări </label>
+          </div>
+          <input class="button-submit" type="submit" value="🤤 Yummy 🤤" />
+        </form>
+      </div>
+    </main>
+    <script src="./categories.js"></script>
+  </body>
+</html>
