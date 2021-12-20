@@ -49,3 +49,17 @@
   border: none;
   font-size: 60px;
 }
+
+@media only screen and (max-width: 500px) {
+  .product-input {
+    width: 300px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-input {
+    width: 250px;
+    margin-right: 5px;
+  }
+}
