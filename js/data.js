@@ -202,7 +202,7 @@ const recipes = [
   //12
   {
     name: 'Bors rosu',
-    category: [0, 1, 2],
+    category: [],
     types: [1],
     ingredients: [23, 9, 2, 24, 5, 25, 11],
     ingredientsText:
